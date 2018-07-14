@@ -2,12 +2,12 @@ import fresh_tomatoes
 import media
 
 toy_story = media.Movie("Toy Story",
-                        "A story of a boy and his toys that come to life",
+                        "A cowboy doll is profoundly threatened and jealous when a new spaceman figure supplants him as top toy in a boy's room.",
                         "https://image.tmdb.org/t/p/w600_and_h900_bestv2/rhIRbceoE9lR4veEXuwCC2wARtG.jpg",
                         "https://www.youtube.com/watch?v=vwyZH85NQC4")
 avatar = media.Movie("Avatar",
-                     "A marine on an alien planet",
-                     "https://resizing.flixster.com/0kS0YraghPsLFqJi2sPCxYwqAeg=/206x305/v1.bTsxMTE3Njc5MjtqOzE3NzI0OzEyMDA7ODAwOzEyMDA",
+                     "A paraplegic marine dispatched to the moon Pandora on a unique mission becomes torn between following his orders and protecting the world he feels is his home.",
+                     "https://m.media-amazon.com/images/M/MV5BMTYwOTEwNjAzMl5BMl5BanBnXkFtZTcwODc5MTUwMw@@._V1_UX182_CR0,0,182,268_AL_.jpg",
                      "https://www.youtube.com/watch?v=-9ceBgWV8io")
 inception = media.Movie("Inception",
                         "A thief, who steals corporate secrets through the use of dream-sharing technology, is given the inverse task of planting an idea into the mind of a CEO.",
