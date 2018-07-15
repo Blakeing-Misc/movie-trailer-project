@@ -1,6 +1,8 @@
 import fresh_tomatoes
 import media
 
+# Intializes Movie objects with title, storyline, poster image link, and video trailer link
+
 toy_story = media.Movie("Toy Story",
                         "A cowboy doll is profoundly threatened and jealous when a new spaceman figure supplants him as top toy in a boy's room.",
                         "https://image.tmdb.org/t/p/w600_and_h900_bestv2/rhIRbceoE9lR4veEXuwCC2wARtG.jpg",
@@ -26,6 +28,9 @@ the_godfather = media.Movie("The Godfather",
                             "https://m.media-amazon.com/images/M/MV5BM2MyNjYxNmUtYTAwNi00MTYxLWJmNWYtYzZlODY3ZTk3OTFlXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_UY268_CR3,0,182,268_AL_.jpg",
                             "https://www.youtube.com/watch?v=sY1S34973zA")
 
+# Creates a list of Movie objects
 movies = [toy_story, avatar, inception,
           the_dark_knight, interstellar, the_godfather]
+
+# Opens the movie website in the user's default browser rendering our list of Movie objects
 fresh_tomatoes.open_movies_page(movies)
